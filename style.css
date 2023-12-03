@@ -1,0 +1,163 @@
+/*ACTUALLY USEFUL*/
+
+body {
+    width: 400px;
+    margin: auto;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+body.template {
+    width: 1060px;
+}
+
+img {
+    display: flex;
+    width: 144px;
+    height: 144px;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+img.theory {
+    position:relative;
+    top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+ul.sidebar {
+    padding-top: 15px;
+    margin-top: 15px;
+ }
+
+ul li {
+    text-align: center;
+    font-family: "Georgia", "backup", "serif";
+    font-size: 24px;
+    color: #666666
+}
+
+ul.sidebar li {
+    text-align: right;
+    padding: 10px;
+    font-size:12px;
+}
+
+ul.sidebar li.top {
+    padding-top: 0px;
+}
+
+div.footer {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    position: fixed;
+    left: 0px;
+    bottom: 2em;
+    width: 100%;
+}
+
+div.quote {
+    display: flex;
+    margin: auto;
+    text-align: left;
+    font-style: oblique;
+}
+
+div.template_container {
+    position: absolute;
+    left: 50%;
+    width: 1060px;
+    margin-left: -525px;
+}
+
+div.spacer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+div.sidebar {
+    display: flex;
+    position: fixed;
+    float:left;
+    width:160px;
+}
+
+div.content {
+    display: flex;
+    margin-left: 160px;
+}
+
+div.left {
+    display: flex;
+    float: left;
+    font-family: 'Georgia', 'backup', serif;
+    font-size: 15px;
+    width: 50%;
+}
+
+div.right {
+    display: flex;
+    float: left;
+    font-size: 15px;
+    width: 50%;
+    text-align:center;
+}
+
+
+
+p, li {
+    line-height: 135%
+}
+
+p {
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 25px;
+    padding-right:25px;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: #666666
+}
+
+hr.theory {
+    clear:both;
+    width:688px;
+    left:70px;
+}
+
+/*---------------*/
+
+@font-face {
+    font-family: "Subway";
+    src: url(/gtw.ttf) format("truetype");
+}
+@font-face {
+    font-family: "backup";
+    src: url(/Georgia.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "backup";
+    src: url(/4456.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "backup";
+    src: url(/4457.ttf) format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
