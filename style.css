@@ -141,6 +141,7 @@ hr.theory {
 
 .text-zone:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /*---------------*/
