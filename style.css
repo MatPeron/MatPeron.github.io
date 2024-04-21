@@ -137,6 +137,12 @@ hr.theory {
     left:70px;
 }
 
+/* FOR MAPS */
+
+.text-zone:hover {
+    text-decoration: underline;
+}
+
 /*---------------*/
 
 @font-face {
